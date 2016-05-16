@@ -28,7 +28,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let itemIcon4 = UIApplicationShortcutIcon.init(type: .Alarm)
         let item4 = UIApplicationShortcutItem.init(type: "type4", localizedTitle: "title4", localizedSubtitle: "subTitle4", icon: itemIcon4, userInfo: nil)
         
-        
         UIApplication.sharedApplication().shortcutItems = [item1, item2, item3, item4]
         
         return true
