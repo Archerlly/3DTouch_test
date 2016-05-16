@@ -4,9 +4,9 @@ study 3DTouch
 
 ----
 ###效果图
-![3d-1.gif](http://upload-images.jianshu.io/upload_images/1945520-76def87ac2d47d62.gif?imageMogr2/auto-orient/strip)
+![gif/3d-1.gif]
 
-![3d.gif](http://upload-images.jianshu.io/upload_images/1945520-8fd7660b2839c61b.gif?imageMogr2/auto-orient/strip)
+![gif/3d.gif]
 
 ----
 ###简单介绍
@@ -27,7 +27,7 @@ let item4 = UIApplicationShortcutItem.init(type: "type4", localizedTitle: "title
 UIApplication.sharedApplication().shortcutItems = [item1, item2, item3, item4]
 ```
 **效果如图**
-![3d-1－10（被拖移）.png](http://upload-images.jianshu.io/upload_images/1945520-e8dcd7eae90d8595.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![gif/3d-1－10（被拖移）.png]
 
 - 可以自定义图标
 - 最多注册4个
@@ -74,7 +74,7 @@ return [item1, item2, item3]
 ```
 效果图
 
-![3d-1－215（被拖移）.png](http://upload-images.jianshu.io/upload_images/1945520-98281861dd316c7f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![gif/3d-1－215（被拖移）.png]
 
 
 ####5. 获取重按力度
@@ -86,4 +86,4 @@ print("\(touch.force)")
 ```
 效果图
 
-![3d-1－143（被拖移）.png](http://upload-images.jianshu.io/upload_images/1945520-8a3da9b220b839fe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![gif/3d-1－143（被拖移）.png]
