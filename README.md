@@ -4,9 +4,9 @@ study 3DTouch
 
 ----
 ###效果图
-![gif/3d-1.gif]
+![image](https://github.com/tt3tt3tt/3DTouch_test/raw/master/gif/3d-1.gif)
 
-![gif/3d.gif]
+![image](https://github.com/tt3tt3tt/3DTouch_test/raw/master/gif/3d.gif)
 
 ----
 ###简单介绍
@@ -27,7 +27,7 @@ let item4 = UIApplicationShortcutItem.init(type: "type4", localizedTitle: "title
 UIApplication.sharedApplication().shortcutItems = [item1, item2, item3, item4]
 ```
 **效果如图**
-![gif/3d-1－10（被拖移）.png]
+![image](https://github.com/tt3tt3tt/3DTouch_test/raw/master/gif/10.png)
 
 - 可以自定义图标
 - 最多注册4个
@@ -74,7 +74,7 @@ return [item1, item2, item3]
 ```
 效果图
 
-![gif/3d-1－215（被拖移）.png]
+![image](https://github.com/tt3tt3tt/3DTouch_test/raw/master/gif/215.png)
 
 
 ####5. 获取重按力度
@@ -86,4 +86,4 @@ print("\(touch.force)")
 ```
 效果图
 
-![gif/3d-1－143（被拖移）.png]
+![image](https://github.com/tt3tt3tt/3DTouch_test/raw/master/gif/143.png)
